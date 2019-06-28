@@ -22,6 +22,8 @@ public class Application extends javax.ws.rs.core.Application {
 
         resources.add(FunApi.class);
         resources.add(FunctionsApi.class);
+        resources.add(Login.class);
+        resources.add(TestService.class);
         resources.add(SmeupTableDTOMessageBodyProvider.class);
         resources.add(SmeupTreeNodeDTOMessageBodyProvider.class);
         resources.add(InputPanelResponseDTOMessageBodyProvider.class);
